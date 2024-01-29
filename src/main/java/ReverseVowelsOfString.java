@@ -22,7 +22,7 @@ public class ReverseVowelsOfString {
         }
 
         for (int i = 0; i<s.length();i++) {
-            if (vowels.contains(Character.toLowerCase(sb.charAt(i))))) {
+            if (vowels.contains(Character.toLowerCase(sb.charAt(i)))) {
                 sb.setCharAt(i, chars.pop());
             }
         }
