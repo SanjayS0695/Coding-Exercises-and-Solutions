@@ -8,7 +8,7 @@ public class RecursionOfStrings {
         List<String> result = new ArrayList<>();
         int j = 0;
         generatePermutations(string, 0, string.length()-1, result, j);
-        System.out.println(result.toString());
+        System.out.println(result);
     }
 
     public static void generatePermutations(String s, int l, int r, List<String> result, int z) {
